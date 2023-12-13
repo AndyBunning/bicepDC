@@ -10,8 +10,8 @@ param (
 )
 
 # Update unattend settings file
-Add-Content -Path "dcpromo_unattend.txt" -Value "NewDomainDNSName=$($dnsDomain)"
-Add-Content -Path "dcpromo_unattend.txt" -Value "DomainNetbiosName=$($netbiosDomain)"
+Add-Content -Path "dcpromo_unattend.txt" -Value "NewDomainDNSName=$($domain)"
+Add-Content -Path "dcpromo_unattend.txt" -Value "DomainNetbiosName=$($netbiosName)"
 Add-Content -Path "dcpromo_unattend.txt" -Value "SafeModeAdminPassword=$($safeModePass)"
 
 
