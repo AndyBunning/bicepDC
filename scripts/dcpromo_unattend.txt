@@ -1,0 +1,13 @@
+[DCInstall]
+
+ReplicaOrNewDomain=Domain
+NewDomain=Forest
+ForestLevel=7
+DomainLevel=7
+InstallDNS=Yes
+ConfirmGc=Yes
+CreateDNSDelegation=No
+DatabasePath="C:\Windows\NTDS"
+LogPath="C:\Windows\NTDS"
+SYSVOLPath="C:\Windows\SYSVOL"
+RebootOnCompletion=Yes
