@@ -4,8 +4,8 @@
 #>
 
 param (
-    [String]$dnsDomain,
-    [String]$netbiosDomain,
+    [String]$domain,
+    [String]$netbiosName,
     [String]$safeModePass
 )
 
