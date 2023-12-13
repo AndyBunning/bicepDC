@@ -1,0 +1,16 @@
+[DCInstall]
+
+ReplicaOrNewDomain=Domain
+NewDomain=Forest
+NewDomainDNSName=dev.bunning.com
+ForestLevel=7
+DomainNetbiosName= bunningdev
+DomainLevel=7
+InstallDNS=Yes
+ConfirmGc=Yes
+CreateDNSDelegation=No
+DatabasePath="C:\Windows\NTDS"
+LogPath="C:\Windows\NTDS"
+SYSVOLPath="C:\Windows\SYSVOL"
+SafeModeAdminPassword=P@55word1234
+RebootOnCompletion=Yes

@@ -1,0 +1,1 @@
+dcpromo /unattend:dcpromo_unattend.txt
