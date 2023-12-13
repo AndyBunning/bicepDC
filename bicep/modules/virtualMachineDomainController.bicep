@@ -163,8 +163,8 @@ var vmNICName = '${name}-nic'
       autoUpgradeMinorVersion: true
       settings: {
         fileUris: [
-          'https://raw.githubusercontent.com/AndyBunning/bicepDC/dev/scripts/dcpromo.ps1'
-          'https://raw.githubusercontent.com/AndyBunning/bicepDC/dev/scripts/dcpromo_unattend.txt'
+          'https://raw.githubusercontent.com/AndyBunning/bicepDC/main/scripts/dcpromo.ps1'
+          'https://raw.githubusercontent.com/AndyBunning/bicepDC/main/scripts/dcpromo_unattend.txt'
         ]
       }
       protectedSettings: {
